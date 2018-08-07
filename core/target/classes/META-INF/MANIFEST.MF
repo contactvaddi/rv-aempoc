@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1533619478485
+Build-Jdk: 1.8.0_65
+Built-By: Rajesh
+Bundle-Description: Core bundle for DHEAEMPOC
+Bundle-ManifestVersion: 2
+Bundle-Name: DHEAEMPOC - Core
+Bundle-SymbolicName: com.myorg.aempoc.DHEAEMPOCexample.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.myorg.aempoc.DHEAEMPOCexample.core.filters;uses:="ja
+ vax.servlet";version="0.0.1",com.myorg.aempoc.DHEAEMPOCexample.core.lis
+ teners;uses:="org.osgi.service.event";version="0.0.1",com.myorg.aempoc.
+ DHEAEMPOCexample.core.models;uses:="javax.annotation,javax.inject,org.a
+ pache.sling.api.resource,org.apache.sling.models.annotations";version="
+ 0.0.1",com.myorg.aempoc.DHEAEMPOCexample.core;version="1.0",com.myorg.a
+ empoc.DHEAEMPOCexample.core.schedulers;version="0.0.1",com.myorg.aempoc
+ .DHEAEMPOCexample.core.servlets;uses:="javax.servlet,org.apache.sling.a
+ pi,org.apache.sling.api.servlets";version="0.0.1"
+Import-Package: javax.inject;version="0.0.0",javax.annotation,javax.serv
+ let,org.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request
+ ;version="[2.4,3)",org.apache.sling.api.resource;version="[2.10,3)",org
+ .apache.sling.api.servlets;version="[2.2,3)",org.apache.sling.models.an
+ notations;version="[1.4,2)",org.apache.sling.settings;version="[1.3,2)"
+ ,org.osgi.service.event;version="[1.3,2)",org.slf4j;version="[1.5,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.Run
+ nable",osgi.service;objectClass:List<String>="javax.servlet.Filter",osg
+ i.service;objectClass:List<String>="javax.servlet.Servlet",osgi.service
+ ;objectClass:List<String>="org.osgi.service.event.EventHandler"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.3.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.myorg.aempoc.DHEAEMPOCexample.core.filte
+ rs.LoggingFilter.xml,OSGI-INF/com.myorg.aempoc.DHEAEMPOCexample.core.li
+ steners.SimpleResourceListener.xml,OSGI-INF/com.myorg.aempoc.DHEAEMPOCe
+ xample.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/com.myorg.aempo
+ c.DHEAEMPOCexample.core.servlets.SimpleServlet.xml
+Sling-Model-Packages: com.myorg.aempoc.DHEAEMPOCexample.core
+Tool: Bnd-3.3.0.201609221906

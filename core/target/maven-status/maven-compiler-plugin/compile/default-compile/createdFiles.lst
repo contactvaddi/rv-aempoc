@@ -1,0 +1,7 @@
+com\myorg\aempoc\DHEAEMPOCexample\core\schedulers\SimpleScheduledTask$Config.class
+com\myorg\aempoc\DHEAEMPOCexample\core\models\HelloWorldModel.class
+com\myorg\aempoc\DHEAEMPOCexample\core\servlets\SimpleServlet.class
+com\myorg\aempoc\DHEAEMPOCexample\core\listeners\SimpleResourceListener.class
+com\myorg\aempoc\DHEAEMPOCexample\core\filters\LoggingFilter.class
+com\myorg\aempoc\DHEAEMPOCexample\core\schedulers\SimpleScheduledTask.class
+com\myorg\aempoc\DHEAEMPOCexample\core\package-info.class
