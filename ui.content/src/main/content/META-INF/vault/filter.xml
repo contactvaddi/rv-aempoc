@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dheaempoc"/>
+    <filter root="/content/dheaempoc"/>
+    <filter root="/content/dam/dheaempoc"/>
+</workspaceFilter>
